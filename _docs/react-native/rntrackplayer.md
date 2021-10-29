@@ -1,31 +1,11 @@
 ---
-title: React Native
+title: React Native TrackPlayer
+type: docs
 tags:
   - jekyll
   - github
-description: React Native Code
+description: React Native Trackplayer
 ---
-
-## React Native Example
-
-### Get Data from JSON Server
-```javascript
- const [data, setData] = useState([]);
-
-    const getPosts = () => {
-        fetch("https://stations.kevtucker.com/podcasts")
-            .then((res) => res.json())
-            .then(resJson => {
-                console.log(resJson)
-                setData(resJson);
-            })
-            .catch(e => { console.log(e) })
-    }
-
-    useEffect(() => {
-        getPosts();
-    }, [])
-```
 
 ### index.js for React Native Track Player
 

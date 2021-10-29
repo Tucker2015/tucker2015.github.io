@@ -1,15 +1,17 @@
 - title: Documentation
   url: docs
   links:
-    - title: "Languages"
-      url: "docs/getting-started"
+    - title: "React Native"
+      url: "docs/react-native/react-native"
       children:
-        - title: React Native
-          url: "docs/react-native#react-native"
-        - title: React
-          url: "docs/react#react"
+        - title: React Native TrackPlayer
+          url: "docs/react-native/rntrackplayer#reactnativetrackplayer"
+        - title: Get Data from JSON
+          url: "docs/react-native/getdata#getdata"
         - title: Docker
           url: "docs/docker#docker"
+    - title: "React"
+      url: "docs/getting-started"
     - title: "About"
       url: "about"
     - title: "News"
