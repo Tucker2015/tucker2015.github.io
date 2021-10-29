@@ -1,5 +1,5 @@
 ---
-title: React Native
+title: Getting Started
 tags:
   - jekyll
   - github
