@@ -39,7 +39,7 @@ twitter: kevtucker
 
 
 # Should there be feedback buttons at the bottom of pages?
-feedback: true
+feedback: false
 
 # Link to a privacy policy in footer, uncomment and define if wanted
 # privacy: https://domain.com/privacy
@@ -74,6 +74,9 @@ collections:
     output: true
     permalink: /:collection/:path
 
+  react-native:
+    output: true
+    permalink: /:collection/:path
 # Defaults
 defaults:
   - scope:
@@ -93,3 +96,4 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  

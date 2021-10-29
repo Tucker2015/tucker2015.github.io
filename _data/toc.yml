@@ -8,18 +8,22 @@
           url: "docs/react-native/rntrackplayer#reactnativetrackplayer"
         - title: Get Data from JSON
           url: "docs/react-native/getdata#getdata"
-        - title: Docker
-          url: "docs/docker#docker"
+        - title: Screen Component
+          url: "docs/react-native/screencomponent#screencomponent"
     - title: "React"
-      url: "docs/getting-started"
-    - title: "About"
-      url: "about"
-    - title: "News"
-      url: "news"
-- title: "Extras"
-  url: "docs/extras"
-  links:
-    - title: Quizzes
-      url: "docs/extras/example-quiz"
-    - title: Tags Page
-      url: "tags"
+      url: "docs/react/react"
+      children:
+        - title: Basic Page
+          url: "docs/react/basicpage#basicpage"
+    - title: "Docker"
+      url: "docs/docker/docker"
+      children:
+        - title: Jekyll Docker
+          url: "docs/docker/jekylldocker#jekylldocker"
+# - title: "Extras"
+#   url: "docs/extras"
+#   links:
+#     - title: Quizzes
+#       url: "docs/extras/example-quiz"
+#     - title: Tags Page
+#       url: "tags"

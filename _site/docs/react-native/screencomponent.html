@@ -23,19 +23,19 @@
 <link rel="icon" type="image/png" href="/assets/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/assets/favicons/android-192x192.png"sizes="192x192">
 
-<title>A Nested Page</title>
-<meta property="og:title" content="A Nested Page" />
-<meta property="og:description" content="An example of a nested page in a subfolder." />
+<title>Screen Component</title>
+<meta property="og:title" content="Screen Component" />
+<meta property="og:description" content="Screen Component for React Native" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://localhost:4000" />
 <meta property="og:site_name" content="http://localhost:4000" />
 
-<meta itemprop="name" content="A Nested Page">
-<meta itemprop="description" content="An example of a nested page in a subfolder.">
+<meta itemprop="name" content="Screen Component">
+<meta itemprop="description" content="Screen Component for React Native">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="A Nested Page"/>
-<meta name="twitter:description" content="An example of a nested page in a subfolder."/>
+<meta name="twitter:title" content="Screen Component"/>
+<meta name="twitter:description" content="Screen Component for React Native"/>
 
 <link rel="stylesheet" href="/assets/css/main.css">
 <link rel="stylesheet" href="/assets/css/palette.css">
@@ -166,8 +166,8 @@ $(document).ready(function() {
           </div>
           <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
               <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
-                  <a href="https://github.com/Tucker2015/edit/master/_docs/subfolder/example-page.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="https://github.com/Tucker2015/issues/new?labels=question&title=Question:&body=Question on: https://github.com/Tucker2015/tree/master/_docs/subfolder/example-page.md" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+                  <a href="https://github.com/Tucker2015/edit/master/_docs/react-native/screencomponent.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/Tucker2015/issues/new?labels=question&title=Question:&body=Question on: https://github.com/Tucker2015/tree/master/_docs/react-native/screencomponent.md" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
 <a href="https://github.com/Tucker2015/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
 <!-- this will parse through the header fields and add a button to open
      an issue / ask a question on Github. The editable field should be in
@@ -190,20 +190,41 @@ $(document).ready(function() {
                 </li>
                 
                 <li class="breadcrumb-item">
-                  <a href="http://localhost:4000/docs/subfolder/">Subfolder</a>
+                  <a href="http://localhost:4000/docs/react-native/">React native</a>
                 </li>
                 
                 <li class="breadcrumb-item active" aria-current="page">
-	          <a href="http://localhost:4000/docs/subfolder/example-page">A Nested Page</a>
+	          <a href="http://localhost:4000/docs/react-native/screencomponent">Screen Component</a>
                 </li>
                 
 	      </ol>
            </nav>
            <div class="td-content">
-	      <h1 id="a-nested-page">A Nested Page</h1>
+	      <h2 id="screen-component">Screen Component</h2>
 
-<p>This is an example of a page that doesn’t have a permalink defined, and
-is not included in the table of contents (<code class="language-plaintext highlighter-rouge">_data/toc.yml</code>).</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">react</span><span class="dl">"</span><span class="p">;</span>
+<span class="k">import</span> <span class="p">{</span>
+  <span class="nx">View</span><span class="p">,</span>
+  <span class="nx">StyleSheet</span><span class="p">,</span>
+  <span class="nx">PlatformConstants</span><span class="p">,</span>
+  <span class="nx">SafeAreaView</span><span class="p">,</span>
+<span class="p">}</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">react-native</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="kd">function</span> <span class="nx">Screen</span><span class="p">({</span> <span class="nx">children</span><span class="p">,</span> <span class="nx">style</span> <span class="p">})</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="o">&lt;</span><span class="nx">SafeAreaView</span> <span class="nx">style</span><span class="o">=</span><span class="p">{[</span><span class="nx">styles</span><span class="p">.</span><span class="nx">container</span><span class="p">,</span> <span class="nx">style</span><span class="p">]}</span><span class="o">&gt;</span><span class="p">{</span><span class="nx">children</span><span class="p">}</span><span class="o">&lt;</span><span class="sr">/SafeAreaView</span><span class="err">&gt;
+</span>  <span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kd">const</span> <span class="nx">styles</span> <span class="o">=</span> <span class="nx">StyleSheet</span><span class="p">.</span><span class="nx">create</span><span class="p">({</span>
+  <span class="na">container</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">flex</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="na">alignItems</span><span class="p">:</span> <span class="dl">"</span><span class="s2">center</span><span class="dl">"</span><span class="p">,</span>
+  <span class="p">},</span>
+<span class="p">});</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="nx">Screen</span><span class="p">;</span>
+</code></pre></div></div>
 
 <script
   src="/assets/js/jquery-3.3.1/jquery-3.3.1.min.js"
@@ -255,7 +276,7 @@ $.each(headers, function(i, header){
 </script>
 
 <script>
-$('h1').first().append('<div></div>')</script>
+$('h1').first().append('<div><span style="font-size:12px" class="badge badge-primary"><a style="cursor:pointer; color:white" href="http://localhost:4000/tags#jekyll ">jekyll</a></span><span style="font-size:12px" class="badge badge-primary"><a style="cursor:pointer; color:white" href="http://localhost:4000/tags#react ">react</a></span></div>')</script>
 
 	
               

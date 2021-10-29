@@ -1,9 +1,9 @@
 ---
-title: Docker
+title: Jekyll Docker
 tags:
   - jekyll
   - github
-description: Docker Code
+description: Jekyll Docker Compose File
 ---
 
 ### Jekyll docker-compose.yaml

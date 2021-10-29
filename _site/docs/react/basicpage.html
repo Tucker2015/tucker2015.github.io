@@ -23,18 +23,18 @@
 <link rel="icon" type="image/png" href="/assets/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/assets/favicons/android-192x192.png"sizes="192x192">
 
-<title>React</title>
-<meta property="og:title" content="React" />
+<title>React Basic Page</title>
+<meta property="og:title" content="React Basic Page" />
 <meta property="og:description" content="React Code" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://localhost:4000" />
 <meta property="og:site_name" content="http://localhost:4000" />
 
-<meta itemprop="name" content="React">
+<meta itemprop="name" content="React Basic Page">
 <meta itemprop="description" content="React Code">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="React"/>
+<meta name="twitter:title" content="React Basic Page"/>
 <meta name="twitter:description" content="React Code"/>
 
 <link rel="stylesheet" href="/assets/css/main.css">
@@ -60,10 +60,10 @@
                             <a class="nav-link" href="https://github.com/Tucker2015" target="_blank"><span>GitHub</span></a>
 			</li>
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
-                            <a class="nav-link" href="/about" ><span>About</span></a>
+                            <a class="nav-link" href="/docs" ><span>Documentation</span></a>
 			</li>
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
-                            <a class="nav-link" href="/docs" ><span>Documentation</span></a>
+                            <a class="nav-link" href="/docs/react-native/react-native" ><span>React-Native</span></a>
 			</li>
 		</ul>
 	</div>
@@ -138,7 +138,7 @@ $(document).ready(function() {
                 
                   <li class="td-sidebar-nav__section-title">
                     <a href="
-                                /docs/getting-started
+                                /docs/react/react
                              " 
                        class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">React
                     </a>
@@ -147,54 +147,9 @@ $(document).ready(function() {
                 
                   <li class="td-sidebar-nav__section-title">
                     <a href="
-                                /about
+                                /docs/docker/docker
                              " 
-                       class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">About
-                    </a>
-                  </li>
-                  
-                
-                  <li class="td-sidebar-nav__section-title">
-                    <a href="
-                                /news
-                             " 
-                       class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">News
-                    </a>
-                  </li>
-                  
-                
-              </ul>
-            </li>
-          </ul>
-        
-      </ul>
-    
-      <ul class="td-sidebar-nav__section pr-md-3">
-        
-        
-        
-        <li class="td-sidebar-nav__section-title">
-          <a  href="/docs/extras" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Extras</a>
-        </li>
-        
-          <ul>
-            <li class="collapse show" id="extras">
-              <ul class="td-sidebar-nav__section pr-md-3">
-                
-                  <li class="td-sidebar-nav__section-title">
-                    <a href="
-                                /docs/extras/example-quiz
-                             " 
-                       class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Quizzes
-                    </a>
-                  </li>
-                  
-                
-                  <li class="td-sidebar-nav__section-title">
-                    <a href="
-                                /tags
-                             " 
-                       class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Tags Page
+                       class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Docker
                     </a>
                   </li>
                   
@@ -211,8 +166,8 @@ $(document).ready(function() {
           </div>
           <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
               <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
-                  <a href="https://github.com/Tucker2015/edit/master/_docs/react.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="https://github.com/Tucker2015/issues/new?labels=question&title=Question:&body=Question on: https://github.com/Tucker2015/tree/master/_docs/react.md" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+                  <a href="https://github.com/Tucker2015/edit/master/_docs/react/basicpage.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/Tucker2015/issues/new?labels=question&title=Question:&body=Question on: https://github.com/Tucker2015/tree/master/_docs/react/basicpage.md" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
 <a href="https://github.com/Tucker2015/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
 <!-- this will parse through the header fields and add a button to open
      an issue / ask a question on Github. The editable field should be in
@@ -234,14 +189,18 @@ $(document).ready(function() {
                   <a href="http://localhost:4000/docs/">Documentation</a>
                 </li>
                 
+                <li class="breadcrumb-item">
+                  <a href="http://localhost:4000/docs/react/">React</a>
+                </li>
+                
                 <li class="breadcrumb-item active" aria-current="page">
-	          <a href="http://localhost:4000/docs/react">React</a>
+	          <a href="http://localhost:4000/docs/react/basicpage">React Basic Page</a>
                 </li>
                 
 	      </ol>
            </nav>
            <div class="td-content">
-	      <p>Test</p>
+	      <p>This is just a basic page</p>
 
 <script
   src="/assets/js/jquery-3.3.1/jquery-3.3.1.min.js"
@@ -297,63 +256,7 @@ $('h1').first().append('<div><span style="font-size:12px" class="badge badge-pri
 
 	
               
-              <style>
-  .feedback--answer {
-    display: inline-block;
-  }
-  .feedback--answer-no {
-    margin-left: 1em;
-  }
-  .feedback--response {
-    display: none;
-    margin-top: 1em;
-  }
-  .feedback--response__visible {
-    display: block;
-  }
-</style>
-<h5 class="feedback--title">Feedback</h5>
-<p class="feedback--question">Was this page helpful?</p>
-<button class="feedback--answer feedback--answer-yes">Yes</button>
-<button class="feedback--answer feedback--answer-no">No</button>
-<p class="feedback--response feedback--response-yes">
-  Glad to hear it! Please <a href="https://github.com/Tucker2015/issues/new">tell us how we can improve</a>.
-</p>
-<p class="feedback--response feedback--response-no">
-  Sorry to hear that. Please <a href="https://github.com/Tucker2015/issues/new">tell us how we can improve</a>.
-</p>
-<script>
-  const yesButton = document.querySelector('.feedback--answer-yes');
-  const noButton = document.querySelector('.feedback--answer-no');
-  const yesResponse = document.querySelector('.feedback--response-yes');
-  const noResponse = document.querySelector('.feedback--response-no');
-  const disableButtons = () => {
-    yesButton.disabled = true;
-    noButton.disabled = true;
-  };
-  const sendFeedback = (value) => {
-    if (typeof ga !== 'function') return;
-    const args = {
-      command: 'send',
-      hitType: 'event',
-      category: 'Helpful',
-      action: 'click',
-      label: window.location.pathname,
-      value: value
-    };
-    ga(args.command, args.hitType, args.category, args.action, args.label, args.value);
-  };
-  yesButton.addEventListener('click', () => {
-    yesResponse.classList.add('feedback--response__visible');
-    disableButtons();
-    sendFeedback(1);
-  });
-  noButton.addEventListener('click', () => {
-    noResponse.classList.add('feedback--response__visible');
-    disableButtons();
-    sendFeedback(0);
-  });
-</script><br/>
+              <br/>
 
 
            </div>
