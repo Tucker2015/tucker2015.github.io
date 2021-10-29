@@ -234,30 +234,42 @@ $(document).ready(function() {
            <div class="td-content">
 	      <h2 id="react-native-example">React Native Example</h2>
 
-<h3 id="navigation">Navigation</h3>
+<h3 id="indexjs-for-react-native-track-player">index.js for React Native Track Player</h3>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">react</span><span class="dl">"</span><span class="p">;</span>
-<span class="k">import</span> <span class="p">{</span> <span class="nx">NavigationContainer</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">@react-navigation/native</span><span class="dl">"</span><span class="p">;</span>
-<span class="k">import</span> <span class="nx">WelcomeScreen</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">./src/screens/WelcomeScreen</span><span class="dl">"</span><span class="p">;</span>
-<span class="k">import</span> <span class="p">{</span> <span class="nx">createNativeStackNavigator</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">@react-navigation/native-stack</span><span class="dl">"</span><span class="p">;</span>
-<span class="k">import</span> <span class="nx">PlayerScreen</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">./src/player/Player</span><span class="dl">"</span><span class="p">;</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="p">{</span> <span class="nx">AppRegistry</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">react-native</span><span class="dl">"</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">App</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">./App</span><span class="dl">"</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">TrackPlayer</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">react-native-track-player</span><span class="dl">"</span><span class="p">;</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">name</span> <span class="k">as</span> <span class="nx">appName</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">./app.json</span><span class="dl">"</span><span class="p">;</span>
 
-<span class="kd">const</span> <span class="nx">Stack</span> <span class="o">=</span> <span class="nx">createNativeStackNavigator</span><span class="p">();</span>
+<span class="nx">AppRegistry</span><span class="p">.</span><span class="nx">registerComponent</span><span class="p">(</span><span class="nx">appName</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="nx">App</span><span class="p">);</span>
+<span class="nx">TrackPlayer</span><span class="p">.</span><span class="nx">registerPlaybackService</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">./service.js</span><span class="dl">"</span><span class="p">));</span>
+</code></pre></div></div>
 
-<span class="kd">function</span> <span class="nx">App</span><span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">return</span> <span class="p">(</span>
-    <span class="o">&lt;</span><span class="nx">NavigationContainer</span><span class="o">&gt;</span>
-      <span class="o">&lt;</span><span class="nx">Stack</span><span class="p">.</span><span class="nx">Navigator</span>
-        <span class="nx">screenOptions</span><span class="o">=</span>
-      <span class="o">&gt;</span>
-        <span class="o">&lt;</span><span class="nx">Stack</span><span class="p">.</span><span class="nx">Screen</span> <span class="nx">name</span><span class="o">=</span><span class="dl">"</span><span class="s2">Home</span><span class="dl">"</span> <span class="nx">component</span><span class="o">=</span><span class="p">{</span><span class="nx">WelcomeScreen</span><span class="p">}</span> <span class="sr">/</span><span class="err">&gt;
-</span>        <span class="o">&lt;</span><span class="nx">Stack</span><span class="p">.</span><span class="nx">Screen</span> <span class="nx">name</span><span class="o">=</span><span class="dl">"</span><span class="s2">Player</span><span class="dl">"</span> <span class="nx">component</span><span class="o">=</span><span class="p">{</span><span class="nx">PlayerScreen</span><span class="p">}</span> <span class="sr">/</span><span class="err">&gt;
-</span>      <span class="o">&lt;</span><span class="sr">/Stack.Navigator</span><span class="err">&gt;
-</span>    <span class="o">&lt;</span><span class="sr">/NavigationContainer</span><span class="err">&gt;
-</span>  <span class="p">);</span>
-<span class="p">}</span>
+<h3 id="servicejs-for-react-native-track-player">service.js for React Native Track Player</h3>
 
-<span class="k">export</span> <span class="k">default</span> <span class="nx">App</span><span class="p">;</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">TrackPlayer</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">react-native-track-player</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="k">async</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="nx">TrackPlayer</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">remote-play</span><span class="dl">"</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">TrackPlayer</span><span class="p">.</span><span class="nx">play</span><span class="p">();</span>
+  <span class="p">});</span>
+
+  <span class="nx">TrackPlayer</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">remote-pause</span><span class="dl">"</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">TrackPlayer</span><span class="p">.</span><span class="nx">pause</span><span class="p">();</span>
+  <span class="p">});</span>
+
+  <span class="nx">TrackPlayer</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">remote-next</span><span class="dl">"</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">TrackPlayer</span><span class="p">.</span><span class="nx">skipToNext</span><span class="p">();</span>
+  <span class="p">});</span>
+
+  <span class="nx">TrackPlayer</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">remote-previous</span><span class="dl">"</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">TrackPlayer</span><span class="p">.</span><span class="nx">skipToPrevious</span><span class="p">();</span>
+  <span class="p">});</span>
+
+  <span class="nx">TrackPlayer</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">remote-stop</span><span class="dl">"</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">TrackPlayer</span><span class="p">.</span><span class="nx">destroy</span><span class="p">();</span>
+  <span class="p">});</span>
+<span class="p">};</span>
 </code></pre></div></div>
 
 <script

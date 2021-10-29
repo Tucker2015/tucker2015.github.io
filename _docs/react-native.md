@@ -8,31 +8,42 @@ description: React Native Code
 
 ## React Native Example
 
-### Navigation
+### index.js for React Native Track Player
 
 ```javascript
-import React from "react";
-import { NavigationContainer } from "@react-navigation/native";
-import WelcomeScreen from "./src/screens/WelcomeScreen";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import PlayerScreen from "./src/player/Player";
+import { AppRegistry } from "react-native";
+import App from "./App";
+import TrackPlayer from "react-native-track-player";
+import { name as appName } from "./app.json";
 
-const Stack = createNativeStackNavigator();
+AppRegistry.registerComponent(appName, () => App);
+TrackPlayer.registerPlaybackService(() => require("./service.js"));
+```
 
-function App(props) {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator
-        screenOptions={{
-          headerShown: false,
-        }}
-      >
-        <Stack.Screen name="Home" component={WelcomeScreen} />
-        <Stack.Screen name="Player" component={PlayerScreen} />
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
-}
+### service.js for React Native Track Player
 
-export default App;
+```javascript
+import TrackPlayer from "react-native-track-player";
+
+module.exports = async function () {
+  TrackPlayer.addEventListener("remote-play", () => {
+    TrackPlayer.play();
+  });
+
+  TrackPlayer.addEventListener("remote-pause", () => {
+    TrackPlayer.pause();
+  });
+
+  TrackPlayer.addEventListener("remote-next", () => {
+    TrackPlayer.skipToNext();
+  });
+
+  TrackPlayer.addEventListener("remote-previous", () => {
+    TrackPlayer.skipToPrevious();
+  });
+
+  TrackPlayer.addEventListener("remote-stop", () => {
+    TrackPlayer.destroy();
+  });
+};
 ```

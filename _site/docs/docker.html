@@ -232,7 +232,20 @@ $(document).ready(function() {
 	      </ol>
            </nav>
            <div class="td-content">
-	      <p>Test</p>
+	      <h3 id="jekyll-docker-composeyaml">Jekyll docker-compose.yaml</h3>
+
+<pre><code class="language-Docker">version: '2'
+
+services:
+  jekyll:
+    image: jekyll/jekyll:latest
+    command: jekyll serve --watch --force_polling --verbose
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/srv/jekyll
+
+</code></pre>
 
 <script
   src="/assets/js/jquery-3.3.1/jquery-3.3.1.min.js"
