@@ -27,3 +27,9 @@ useEffect(() => {
   getPosts();
 }, []);
 ```
+
+### Sort Data by ID
+
+```javascript
+data={data.sort((obj1, obj2) => obj2.id - obj1.id)}
+```
