@@ -2,7 +2,7 @@
   url: docs
   links:
     - title: "React Native"
-      url: "docs/react-native/react-native"
+      url: "docs/react-native"
       children:
         - title: React Native TrackPlayer
           url: "docs/react-native/rntrackplayer#reactnativetrackplayer"
@@ -11,12 +11,12 @@
         - title: Screen Component
           url: "docs/react-native/screencomponent#screencomponent"
     - title: "React"
-      url: "docs/react/react"
+      url: "docs/react"
       children:
         - title: Basic Page
           url: "docs/react/basicpage#basicpage"
     - title: "Docker"
-      url: "docs/docker/docker"
+      url: "docs/docker"
       children:
         - title: Jekyll Docker
           url: "docs/docker/jekylldocker#jekylldocker"
