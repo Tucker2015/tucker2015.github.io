@@ -1,12 +1,12 @@
 ---
-title: Get Data from JSON
+title: Get Data from JSON using FETCH
 tags:
   - jekyll
   - github
-description: Get Data from JSON Server
+description: Get Data from JSON Server using FETCH
 ---
 
-### Get Data from JSON Server
+### Get Data from JSON Server using Fetch
 
 ```javascript
 const [data, setData] = useState([]);
