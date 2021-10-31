@@ -29,7 +29,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tucker2015.github.io" # the base hostname & protocol for your site
 
 # Social (First three Required)
-repo: "https://github.com/Tucker2015"
+repo: "https://github.com/Tucker2015/tucker2015.github.io"
 github_user: "Tucker2015"
 github_repo: "tucker2015.github.io"
 github_branch: "master"
