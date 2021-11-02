@@ -8,7 +8,7 @@ description: Screen Component for React Native
 
 ## Screen Component
 
-```javascript
+```jsx
 import React from "react";
 import {
   View,
