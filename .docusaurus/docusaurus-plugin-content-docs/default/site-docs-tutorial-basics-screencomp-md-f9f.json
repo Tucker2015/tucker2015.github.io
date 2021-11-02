@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tutorial-basics/screencomp",
+  "id": "tutorial-basics/screencomp",
+  "isDocsHomePage": false,
+  "title": "Screen Component",
+  "description": "",
+  "source": "@site/docs/tutorial-basics/screencomp.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/screencomp",
+  "permalink": "/docs/tutorial-basics/screencomp",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-basics/screencomp.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup React Native Track Player",
+    "permalink": "/docs/tutorial-basics/track-player"
+  },
+  "next": {
+    "title": "React Native",
+    "permalink": "/docs/tutorial-basics/test"
+  }
+}

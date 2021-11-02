@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tutorial-basics/test",
+  "id": "tutorial-basics/test",
+  "isDocsHomePage": false,
+  "title": "React Native",
+  "description": "Screen Component",
+  "source": "@site/docs/tutorial-basics/test.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/test",
+  "permalink": "/docs/tutorial-basics/test",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-basics/test.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Screen Component",
+    "permalink": "/docs/tutorial-basics/screencomp"
+  },
+  "next": {
+    "title": "Jekyll Docker Compose",
+    "permalink": "/docs/docker/jekyllDocker"
+  }
+}

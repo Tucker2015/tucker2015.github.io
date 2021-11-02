@@ -1,0 +1,58 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "docker/jekyllDocker",
+              "path": "/docs/docker/jekyllDocker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/get-data-fetch",
+              "path": "/docs/tutorial-basics/get-data-fetch",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/screencomp",
+              "path": "/docs/tutorial-basics/screencomp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/test",
+              "path": "/docs/tutorial-basics/test",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/track-player",
+              "path": "/docs/tutorial-basics/track-player",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/docs/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/docs/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
