@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-basics/boolean",
+  "id": "tutorial-basics/boolean",
+  "isDocsHomePage": false,
+  "title": "Boolean Values",
+  "description": "To use True / False to display a component as true or false, use the true and false functions.",
+  "source": "@site/docs/tutorial-basics/boolean.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/boolean",
+  "permalink": "/docs/tutorial-basics/boolean",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Saving Values in Async Storage",
+    "permalink": "/docs/tutorial-basics/asyncStorage"
+  },
+  "next": {
+    "title": "Function for Apple Sign In with Firebase",
+    "permalink": "/docs/tutorial-basics/firebase-apple-auth"
+  }
+}

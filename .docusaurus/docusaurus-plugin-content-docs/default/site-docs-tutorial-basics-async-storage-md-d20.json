@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-basics/asyncStorage",
+  "id": "tutorial-basics/asyncStorage",
+  "isDocsHomePage": false,
+  "title": "Saving Values in Async Storage",
+  "description": "First install AsyncStorage from GitHub :",
+  "source": "@site/docs/tutorial-basics/asyncStorage.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/asyncStorage",
+  "permalink": "/docs/tutorial-basics/asyncStorage",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Xcode info.plist Permissions",
+    "permalink": "/docs/tutorial-basics/Xcode Permissions"
+  },
+  "next": {
+    "title": "Boolean Values",
+    "permalink": "/docs/tutorial-basics/boolean"
+  }
+}

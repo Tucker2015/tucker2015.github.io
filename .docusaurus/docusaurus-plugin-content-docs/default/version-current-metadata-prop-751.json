@@ -10,7 +10,7 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Tutorial Intro",
+        "label": "Kevin's Documents",
         "href": "/docs/intro"
       },
       {
@@ -21,7 +21,7 @@
         "items": [
           {
             "type": "link",
-            "label": "Get Data using Fetch",
+            "label": "Get Data from JSON Server using Fetch",
             "href": "/docs/tutorial-basics/get-data-fetch"
           },
           {
@@ -36,8 +36,38 @@
           },
           {
             "type": "link",
+            "label": "Xcode info.plist Permissions",
+            "href": "/docs/tutorial-basics/Xcode Permissions"
+          },
+          {
+            "type": "link",
+            "label": "Saving Values in Async Storage",
+            "href": "/docs/tutorial-basics/asyncStorage"
+          },
+          {
+            "type": "link",
+            "label": "Boolean Values",
+            "href": "/docs/tutorial-basics/boolean"
+          },
+          {
+            "type": "link",
+            "label": "Function for Apple Sign In with Firebase",
+            "href": "/docs/tutorial-basics/firebase-apple-auth"
+          },
+          {
+            "type": "link",
+            "label": "Parsing Data from API",
+            "href": "/docs/tutorial-basics/parse-data"
+          },
+          {
+            "type": "link",
             "label": "React Native",
             "href": "/docs/tutorial-basics/test"
+          },
+          {
+            "type": "link",
+            "label": "Dark Mode Theme",
+            "href": "/docs/tutorial-basics/themeSwitch"
           }
         ]
       },

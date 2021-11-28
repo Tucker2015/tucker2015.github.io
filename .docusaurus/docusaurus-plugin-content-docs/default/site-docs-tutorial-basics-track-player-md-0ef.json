@@ -8,7 +8,6 @@
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/track-player",
   "permalink": "/docs/tutorial-basics/track-player",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-basics/track-player.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -17,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Get Data using Fetch",
+    "title": "Get Data from JSON Server using Fetch",
     "permalink": "/docs/tutorial-basics/get-data-fetch"
   },
   "next": {

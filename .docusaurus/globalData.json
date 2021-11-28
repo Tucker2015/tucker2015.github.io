@@ -21,8 +21,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "tutorial-basics/asyncStorage",
+              "path": "/docs/tutorial-basics/asyncStorage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/boolean",
+              "path": "/docs/tutorial-basics/boolean",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/firebase-apple-auth",
+              "path": "/docs/tutorial-basics/firebase-apple-auth",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-basics/get-data-fetch",
               "path": "/docs/tutorial-basics/get-data-fetch",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/parse-data",
+              "path": "/docs/tutorial-basics/parse-data",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -36,8 +56,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "tutorial-basics/themeSwitch",
+              "path": "/docs/tutorial-basics/themeSwitch",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-basics/track-player",
               "path": "/docs/tutorial-basics/track-player",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/Xcode Permissions",
+              "path": "/docs/tutorial-basics/Xcode Permissions",
               "sidebar": "tutorialSidebar"
             },
             {

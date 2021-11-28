@@ -8,7 +8,6 @@
   "sourceDirName": "docker",
   "slug": "/docker/jekyllDocker",
   "permalink": "/docs/docker/jekyllDocker",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/docker/jekyllDocker.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -17,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "React Native",
-    "permalink": "/docs/tutorial-basics/test"
+    "title": "Dark Mode Theme",
+    "permalink": "/docs/tutorial-basics/themeSwitch"
   },
   "next": {
     "title": "Manage Docs Versions",

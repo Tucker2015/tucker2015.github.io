@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-basics/parse-data",
+  "id": "tutorial-basics/parse-data",
+  "isDocsHomePage": false,
+  "title": "Parsing Data from API",
+  "description": "Parse Date",
+  "source": "@site/docs/tutorial-basics/parse-data.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/parse-data",
+  "permalink": "/docs/tutorial-basics/parse-data",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Function for Apple Sign In with Firebase",
+    "permalink": "/docs/tutorial-basics/firebase-apple-auth"
+  },
+  "next": {
+    "title": "React Native",
+    "permalink": "/docs/tutorial-basics/test"
+  }
+}

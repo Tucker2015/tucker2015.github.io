@@ -2,13 +2,12 @@
   "unversionedId": "tutorial-basics/get-data-fetch",
   "id": "tutorial-basics/get-data-fetch",
   "isDocsHomePage": false,
-  "title": "Get Data using Fetch",
-  "description": "=======",
+  "title": "Get Data from JSON Server using Fetch",
+  "description": "Get Data from JSON Server using Fetch",
   "source": "@site/docs/tutorial-basics/get-data-fetch.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/get-data-fetch",
   "permalink": "/docs/tutorial-basics/get-data-fetch",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-basics/get-data-fetch.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -17,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Tutorial Intro",
+    "title": "Kevin's Documents",
     "permalink": "/docs/intro"
   },
   "next": {

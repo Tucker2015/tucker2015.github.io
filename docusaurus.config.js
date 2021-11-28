@@ -16,6 +16,7 @@ const config = {
   organizationName: 'Tucker2015', // Usually your GitHub org/user name.
   projectName: 'tucker2015.github.io', // Usually your repo name.
 
+  plugins: ['@docusaurus/theme-live-codeblock'],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -24,7 +25,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          // editUrl: 'https://github.com/tucker2015.github.io/edit/master/',
         },
         blog: {
           showReadingTime: true,
@@ -41,7 +42,16 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+
     ({
+      liveCodeBlock: {
+        /**
+         * The position of the live playground, above or under the editor
+         * Possible values: "top" | "bottom"
+         */
+        playgroundPosition: 'bottom',
+      },
+
       navbar: {
         title: `Kevin's Documents`,
         logo: {

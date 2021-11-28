@@ -70,7 +70,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','703'),
+    component: ComponentCreator('/docs','dc0'),
     routes: [
       {
         path: '/docs/docker/jekyllDocker',
@@ -85,8 +85,32 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/tutorial-basics/asyncStorage',
+        component: ComponentCreator('/docs/tutorial-basics/asyncStorage','f37'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/tutorial-basics/boolean',
+        component: ComponentCreator('/docs/tutorial-basics/boolean','ac6'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/tutorial-basics/firebase-apple-auth',
+        component: ComponentCreator('/docs/tutorial-basics/firebase-apple-auth','d08'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/tutorial-basics/get-data-fetch',
         component: ComponentCreator('/docs/tutorial-basics/get-data-fetch','a9b'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/tutorial-basics/parse-data',
+        component: ComponentCreator('/docs/tutorial-basics/parse-data','0a3'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -103,8 +127,20 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/tutorial-basics/themeSwitch',
+        component: ComponentCreator('/docs/tutorial-basics/themeSwitch','e5f'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/tutorial-basics/track-player',
         component: ComponentCreator('/docs/tutorial-basics/track-player','c00'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/tutorial-basics/Xcode Permissions',
+        component: ComponentCreator('/docs/tutorial-basics/Xcode Permissions','8da'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

@@ -8,7 +8,6 @@
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/screencomp",
   "permalink": "/docs/tutorial-basics/screencomp",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/tutorial-basics/screencomp.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -21,7 +20,7 @@
     "permalink": "/docs/tutorial-basics/track-player"
   },
   "next": {
-    "title": "React Native",
-    "permalink": "/docs/tutorial-basics/test"
+    "title": "Xcode info.plist Permissions",
+    "permalink": "/docs/tutorial-basics/Xcode Permissions"
   }
 }

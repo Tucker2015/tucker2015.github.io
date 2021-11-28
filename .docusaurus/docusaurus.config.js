@@ -8,13 +8,15 @@ export default {
   "favicon": "img/favicon.ico",
   "organizationName": "Tucker2015",
   "projectName": "tucker2015.github.io",
+  "plugins": [
+    "@docusaurus/theme-live-codeblock"
+  ],
   "presets": [
     [
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/kevin/Documents/Github/tucker2015.github.io/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/"
+          "sidebarPath": "/Users/kevin/Documents/Github/tucker2015.github.io/sidebars.js"
         },
         "blog": {
           "showReadingTime": true,
@@ -27,6 +29,9 @@ export default {
     ]
   ],
   "themeConfig": {
+    "liveCodeBlock": {
+      "playgroundPosition": "bottom"
+    },
     "navbar": {
       "title": "Kevin's Documents",
       "logo": {
@@ -323,7 +328,6 @@ export default {
   },
   "onDuplicateRoutes": "warn",
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "titleDelimiter": "|",
   "noIndex": false

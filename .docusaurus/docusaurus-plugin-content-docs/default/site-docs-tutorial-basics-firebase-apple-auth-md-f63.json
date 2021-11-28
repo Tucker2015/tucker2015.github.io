@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-basics/firebase-apple-auth",
+  "id": "tutorial-basics/firebase-apple-auth",
+  "isDocsHomePage": false,
+  "title": "Function for Apple Sign In with Firebase",
+  "description": "",
+  "source": "@site/docs/tutorial-basics/firebase-apple-auth.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/firebase-apple-auth",
+  "permalink": "/docs/tutorial-basics/firebase-apple-auth",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Boolean Values",
+    "permalink": "/docs/tutorial-basics/boolean"
+  },
+  "next": {
+    "title": "Parsing Data from API",
+    "permalink": "/docs/tutorial-basics/parse-data"
+  }
+}
