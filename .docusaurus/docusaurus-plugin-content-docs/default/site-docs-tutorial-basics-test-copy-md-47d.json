@@ -1,0 +1,26 @@
+{
+  "unversionedId": "tutorial-basics/test copy",
+  "id": "tutorial-basics/test copy",
+  "isDocsHomePage": false,
+  "title": "React Native Background Timer",
+  "description": "",
+  "source": "@site/docs/tutorial-basics/test copy.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/test copy",
+  "permalink": "/docs/tutorial-basics/test copy",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Get Data from JSON Server using Fetch",
+    "permalink": "/docs/tutorial-basics/get-data-fetch"
+  },
+  "next": {
+    "title": "Saving Values in Async Storage",
+    "permalink": "/docs/tutorial-basics/asyncStorage"
+  }
+}

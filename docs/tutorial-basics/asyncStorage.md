@@ -1,10 +1,10 @@
 ---
-sidebar_position: 7
+sidebar_position: 2
 ---
 
 # Saving Values in Async Storage
 
-First install AsyncStorage from GitHub :
+1. Install AsyncStorage from GitHub :
 
 https://github.com/react-native-async-storage/async-storage
 
@@ -12,13 +12,13 @@ https://github.com/react-native-async-storage/async-storage
 yarn add @react-native-async-storage/async-storage
 ```
 
-Pod Install :
+2. Pod Install :
 
 ```bash
 npx pod-install
 ```
 
-Create the following code :
+### Usage
 
 ```jsx title="app.js"
 import React, { useEffect, useState } from "react";

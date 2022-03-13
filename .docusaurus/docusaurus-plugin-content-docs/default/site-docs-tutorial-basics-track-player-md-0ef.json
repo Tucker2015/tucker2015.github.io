@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Get Data from JSON Server using Fetch",
-    "permalink": "/docs/tutorial-basics/get-data-fetch"
+    "title": "Saving Values in Async Storage",
+    "permalink": "/docs/tutorial-basics/asyncStorage"
   },
   "next": {
     "title": "Screen Component",

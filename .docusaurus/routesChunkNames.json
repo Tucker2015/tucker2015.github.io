@@ -107,7 +107,7 @@
     "component": "65d5d11a",
     "config": "5e9f5e1a"
   },
-  "/docs-dc0": {
+  "/docs-d68": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
@@ -119,9 +119,17 @@
     "component": "17896441",
     "content": "0e384e19"
   },
+  "/docs/react/test-068": {
+    "component": "17896441",
+    "content": "2d260b2d"
+  },
   "/docs/tutorial-basics/asyncStorage-f37": {
     "component": "17896441",
     "content": "d204f22d"
+  },
+  "/docs/tutorial-basics/backgroundTimer-c18": {
+    "component": "17896441",
+    "content": "fdf4de51"
   },
   "/docs/tutorial-basics/boolean-ac6": {
     "component": "17896441",
@@ -134,6 +142,10 @@
   "/docs/tutorial-basics/get-data-fetch-a9b": {
     "component": "17896441",
     "content": "428717e1"
+  },
+  "/docs/tutorial-basics/mapview-df6": {
+    "component": "17896441",
+    "content": "b4fb9f5b"
   },
   "/docs/tutorial-basics/parse-data-0a3": {
     "component": "17896441",

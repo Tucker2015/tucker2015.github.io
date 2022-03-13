@@ -16,11 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Kevin's Documents",
-    "permalink": "/docs/intro"
+    "title": "React Native Background Timer",
+    "permalink": "/docs/tutorial-basics/backgroundTimer"
   },
   "next": {
-    "title": "Setup React Native Track Player",
-    "permalink": "/docs/tutorial-basics/track-player"
+    "title": "Saving Values in Async Storage",
+    "permalink": "/docs/tutorial-basics/asyncStorage"
   }
 }

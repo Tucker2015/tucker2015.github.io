@@ -25,3 +25,10 @@ sidebar_position: 7
 	</array>
 
 ```
+
+### Missing Compliance
+
+```xml
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+```

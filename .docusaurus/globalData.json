@@ -21,8 +21,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "react/test",
+              "path": "/docs/react/test",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-basics/asyncStorage",
               "path": "/docs/tutorial-basics/asyncStorage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/backgroundTimer",
+              "path": "/docs/tutorial-basics/backgroundTimer",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -38,6 +48,11 @@
             {
               "id": "tutorial-basics/get-data-fetch",
               "path": "/docs/tutorial-basics/get-data-fetch",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/mapview",
+              "path": "/docs/tutorial-basics/mapview",
               "sidebar": "tutorialSidebar"
             },
             {

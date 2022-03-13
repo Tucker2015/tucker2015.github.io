@@ -21,8 +21,18 @@
         "items": [
           {
             "type": "link",
+            "label": "React Native Background Timer",
+            "href": "/docs/tutorial-basics/backgroundTimer"
+          },
+          {
+            "type": "link",
             "label": "Get Data from JSON Server using Fetch",
             "href": "/docs/tutorial-basics/get-data-fetch"
+          },
+          {
+            "type": "link",
+            "label": "Saving Values in Async Storage",
+            "href": "/docs/tutorial-basics/asyncStorage"
           },
           {
             "type": "link",
@@ -41,11 +51,6 @@
           },
           {
             "type": "link",
-            "label": "Saving Values in Async Storage",
-            "href": "/docs/tutorial-basics/asyncStorage"
-          },
-          {
-            "type": "link",
             "label": "Boolean Values",
             "href": "/docs/tutorial-basics/boolean"
           },
@@ -53,6 +58,11 @@
             "type": "link",
             "label": "Function for Apple Sign In with Firebase",
             "href": "/docs/tutorial-basics/firebase-apple-auth"
+          },
+          {
+            "type": "link",
+            "label": "Mapview",
+            "href": "/docs/tutorial-basics/mapview"
           },
           {
             "type": "link",
@@ -99,6 +109,19 @@
             "type": "link",
             "label": "Translate your site",
             "href": "/docs/tutorial-extras/translate-your-site"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "react",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Get Data from JSON API",
+            "href": "/docs/react/test"
           }
         ]
       }

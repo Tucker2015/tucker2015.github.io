@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Saving Values in Async Storage",
-    "permalink": "/docs/tutorial-basics/asyncStorage"
+    "title": "Xcode info.plist Permissions",
+    "permalink": "/docs/tutorial-basics/Xcode Permissions"
   },
   "next": {
     "title": "Function for Apple Sign In with Firebase",

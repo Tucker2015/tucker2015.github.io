@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Get Data from JSON Server using Fetch",
-    "permalink": "/docs/tutorial-basics/get-data-fetch"
+    "title": "React Native Background Timer",
+    "permalink": "/docs/tutorial-basics/backgroundTimer"
   }
 }

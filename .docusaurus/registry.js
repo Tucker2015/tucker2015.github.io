@@ -6,6 +6,7 @@ export default {
   '17896441': [() => import(/* webpackChunkName: '17896441' */ "@theme/DocItem"), "@theme/DocItem", require.resolveWeak("@theme/DocItem")],
   '1be78505': [() => import(/* webpackChunkName: '1be78505' */ "@theme/DocPage"), "@theme/DocPage", require.resolveWeak("@theme/DocPage")],
   '1f391b9e': [() => import(/* webpackChunkName: '1f391b9e' */ "@theme/MDXPage"), "@theme/MDXPage", require.resolveWeak("@theme/MDXPage")],
+  '2d260b2d': [() => import(/* webpackChunkName: '2d260b2d' */ "@site/docs/react/test.md"), "@site/docs/react/test.md", require.resolveWeak("@site/docs/react/test.md")],
   '30a24c52': [() => import(/* webpackChunkName: '30a24c52' */ "~blog/default/blog-tags-hello-039.json"), "~blog/default/blog-tags-hello-039.json", require.resolveWeak("~blog/default/blog-tags-hello-039.json")],
   '393be207': [() => import(/* webpackChunkName: '393be207' */ "@site/src/pages/markdown-page.md"), "@site/src/pages/markdown-page.md", require.resolveWeak("@site/src/pages/markdown-page.md")],
   '428717e1': [() => import(/* webpackChunkName: '428717e1' */ "@site/docs/tutorial-basics/get-data-fetch.md"), "@site/docs/tutorial-basics/get-data-fetch.md", require.resolveWeak("@site/docs/tutorial-basics/get-data-fetch.md")],
@@ -30,6 +31,7 @@ export default {
   'a848dfb0': [() => import(/* webpackChunkName: 'a848dfb0' */ "@site/docs/docker/jekyllDocker.md"), "@site/docs/docker/jekyllDocker.md", require.resolveWeak("@site/docs/docker/jekyllDocker.md")],
   'b2b675dd': [() => import(/* webpackChunkName: 'b2b675dd' */ "~blog/default/blog-c06.json"), "~blog/default/blog-c06.json", require.resolveWeak("~blog/default/blog-c06.json")],
   'b2f554cd': [() => import(/* webpackChunkName: 'b2f554cd' */ "~blog/default/blog-archive-80c.json"), "~blog/default/blog-archive-80c.json", require.resolveWeak("~blog/default/blog-archive-80c.json")],
+  'b4fb9f5b': [() => import(/* webpackChunkName: 'b4fb9f5b' */ "@site/docs/tutorial-basics/mapview.md"), "@site/docs/tutorial-basics/mapview.md", require.resolveWeak("@site/docs/tutorial-basics/mapview.md")],
   'c4f5d8e4': [() => import(/* webpackChunkName: 'c4f5d8e4' */ "@site/src/pages/index.js"), "@site/src/pages/index.js", require.resolveWeak("@site/src/pages/index.js")],
   'ccc49370': [() => import(/* webpackChunkName: 'ccc49370' */ "@theme/BlogPostPage"), "@theme/BlogPostPage", require.resolveWeak("@theme/BlogPostPage")],
   'd204f22d': [() => import(/* webpackChunkName: 'd204f22d' */ "@site/docs/tutorial-basics/asyncStorage.md"), "@site/docs/tutorial-basics/asyncStorage.md", require.resolveWeak("@site/docs/tutorial-basics/asyncStorage.md")],
@@ -41,4 +43,5 @@ export default {
   'e44a2883': [() => import(/* webpackChunkName: 'e44a2883' */ "@site/docs/tutorial-extras/translate-your-site.md"), "@site/docs/tutorial-extras/translate-your-site.md", require.resolveWeak("@site/docs/tutorial-extras/translate-your-site.md")],
   'f4f34a3a': [() => import(/* webpackChunkName: 'f4f34a3a' */ "@site/blog/2021-08-01-mdx-blog-post.mdx?truncated=true"), "@site/blog/2021-08-01-mdx-blog-post.mdx?truncated=true", require.resolveWeak("@site/blog/2021-08-01-mdx-blog-post.mdx?truncated=true")],
   'f63ebaf7': [() => import(/* webpackChunkName: 'f63ebaf7' */ "@site/docs/tutorial-basics/firebase-apple-auth.md"), "@site/docs/tutorial-basics/firebase-apple-auth.md", require.resolveWeak("@site/docs/tutorial-basics/firebase-apple-auth.md")],
-  'f9f87028': [() => import(/* webpackChunkName: 'f9f87028' */ "@site/docs/tutorial-basics/screencomp.md"), "@site/docs/tutorial-basics/screencomp.md", require.resolveWeak("@site/docs/tutorial-basics/screencomp.md")],};
+  'f9f87028': [() => import(/* webpackChunkName: 'f9f87028' */ "@site/docs/tutorial-basics/screencomp.md"), "@site/docs/tutorial-basics/screencomp.md", require.resolveWeak("@site/docs/tutorial-basics/screencomp.md")],
+  'fdf4de51': [() => import(/* webpackChunkName: 'fdf4de51' */ "@site/docs/tutorial-basics/backgroundTimer.md"), "@site/docs/tutorial-basics/backgroundTimer.md", require.resolveWeak("@site/docs/tutorial-basics/backgroundTimer.md")],};

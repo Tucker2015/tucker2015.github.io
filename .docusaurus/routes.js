@@ -70,7 +70,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','dc0'),
+    component: ComponentCreator('/docs','d68'),
     routes: [
       {
         path: '/docs/docker/jekyllDocker',
@@ -85,8 +85,20 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/react/test',
+        component: ComponentCreator('/docs/react/test','068'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/tutorial-basics/asyncStorage',
         component: ComponentCreator('/docs/tutorial-basics/asyncStorage','f37'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/tutorial-basics/backgroundTimer',
+        component: ComponentCreator('/docs/tutorial-basics/backgroundTimer','c18'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -105,6 +117,12 @@ export default [
       {
         path: '/docs/tutorial-basics/get-data-fetch',
         component: ComponentCreator('/docs/tutorial-basics/get-data-fetch','a9b'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/tutorial-basics/mapview',
+        component: ComponentCreator('/docs/tutorial-basics/mapview','df6'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Function for Apple Sign In with Firebase",
-    "permalink": "/docs/tutorial-basics/firebase-apple-auth"
+    "title": "Mapview",
+    "permalink": "/docs/tutorial-basics/mapview"
   },
   "next": {
     "title": "React Native",

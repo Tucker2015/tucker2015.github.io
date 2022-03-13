@@ -101,7 +101,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2021 Kevin Tucker, Built with Docusaurus."
+      "copyright": "Copyright © 2022 Kevin Tucker, Built with Docusaurus."
     },
     "prism": {
       "theme": {
