@@ -20,7 +20,7 @@
     "permalink": "/docs/tutorial-extras/manage-docs-versions"
   },
   "next": {
-    "title": "Get Data from JSON API",
-    "permalink": "/docs/react/test"
+    "title": "Deploying to Vercel / Plesk",
+    "permalink": "/docs/vite/test"
   }
 }

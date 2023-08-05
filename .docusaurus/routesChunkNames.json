@@ -107,7 +107,7 @@
     "component": "65d5d11a",
     "config": "5e9f5e1a"
   },
-  "/docs-d68": {
+  "/docs-346": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
@@ -118,6 +118,14 @@
   "/docs/intro-aed": {
     "component": "17896441",
     "content": "0e384e19"
+  },
+  "/docs/react/react-query-3c6": {
+    "component": "17896441",
+    "content": "77baa4e5"
+  },
+  "/docs/react/reusableModal-2ad": {
+    "component": "17896441",
+    "content": "35b8e7fb"
   },
   "/docs/react/test-068": {
     "component": "17896441",
@@ -139,9 +147,17 @@
     "component": "17896441",
     "content": "f63ebaf7"
   },
+  "/docs/tutorial-basics/firebaseGetData-e7c": {
+    "component": "17896441",
+    "content": "a99a2055"
+  },
   "/docs/tutorial-basics/get-data-fetch-a9b": {
     "component": "17896441",
     "content": "428717e1"
+  },
+  "/docs/tutorial-basics/getApi-d45": {
+    "component": "17896441",
+    "content": "d56d60bb"
   },
   "/docs/tutorial-basics/mapview-df6": {
     "component": "17896441",
@@ -150,6 +166,14 @@
   "/docs/tutorial-basics/parse-data-0a3": {
     "component": "17896441",
     "content": "642480bd"
+  },
+  "/docs/tutorial-basics/reusableModal-921": {
+    "component": "17896441",
+    "content": "5e2fb444"
+  },
+  "/docs/tutorial-basics/rnFirebaseApi-4d9": {
+    "component": "17896441",
+    "content": "e803e188"
   },
   "/docs/tutorial-basics/screencomp-def": {
     "component": "17896441",
@@ -171,13 +195,9 @@
     "component": "17896441",
     "content": "5a3f23b6"
   },
-  "/docs/tutorial-extras/manage-docs-versions-fdd": {
+  "/docs/vite/deployVercel-04e": {
     "component": "17896441",
-    "content": "dff1c289"
-  },
-  "/docs/tutorial-extras/translate-your-site-2d7": {
-    "component": "17896441",
-    "content": "e44a2883"
+    "content": "6f66d0fa"
   },
   "/-deb": {
     "component": "c4f5d8e4",

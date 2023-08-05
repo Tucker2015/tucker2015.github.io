@@ -39,8 +39,8 @@
                 "permalink": "/docs/tutorial-basics/themeSwitch"
               },
               "next": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+                "title": "Get Data with React-Query",
+                "permalink": "/docs/react/react-query"
               }
             },
             {
@@ -66,6 +66,58 @@
               }
             },
             {
+              "unversionedId": "react/react-query",
+              "id": "react/react-query",
+              "isDocsHomePage": false,
+              "title": "Get Data with React-Query",
+              "description": "Install",
+              "source": "@site/docs/react/react-query.md",
+              "sourceDirName": "react",
+              "slug": "/react/react-query",
+              "permalink": "/docs/react/react-query",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Jekyll Docker Compose",
+                "permalink": "/docs/docker/jekyllDocker"
+              },
+              "next": {
+                "title": "Reusable Modal",
+                "permalink": "/docs/react/reusableModal"
+              }
+            },
+            {
+              "unversionedId": "react/reusableModal",
+              "id": "react/reusableModal",
+              "isDocsHomePage": false,
+              "title": "Reusable Modal",
+              "description": "1. Install React Modal from GitHub :",
+              "source": "@site/docs/react/reusableModal.md",
+              "sourceDirName": "react",
+              "slug": "/react/reusableModal",
+              "permalink": "/docs/react/reusableModal",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Get Data with React-Query",
+                "permalink": "/docs/react/react-query"
+              },
+              "next": {
+                "title": "Get Data from JSON API",
+                "permalink": "/docs/react/test"
+              }
+            },
+            {
               "unversionedId": "react/test",
               "id": "react/test",
               "isDocsHomePage": false,
@@ -83,8 +135,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
+                "title": "Reusable Modal",
+                "permalink": "/docs/react/reusableModal"
+              },
+              "next": {
+                "title": "Deploying to Vercel / Plesk",
+                "permalink": "/docs/vite/deployVercel"
               }
             },
             {
@@ -187,8 +243,34 @@
                 "permalink": "/docs/tutorial-basics/boolean"
               },
               "next": {
-                "title": "Mapview",
-                "permalink": "/docs/tutorial-basics/mapview"
+                "title": "Get Data with Firebase App",
+                "permalink": "/docs/tutorial-basics/firebaseGetData"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/firebaseGetData",
+              "id": "tutorial-basics/firebaseGetData",
+              "isDocsHomePage": false,
+              "title": "Get Data with Firebase App",
+              "description": "",
+              "source": "@site/docs/tutorial-basics/firebaseGetData.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/firebaseGetData",
+              "permalink": "/docs/tutorial-basics/firebaseGetData",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Function for Apple Sign In with Firebase",
+                "permalink": "/docs/tutorial-basics/firebase-apple-auth"
+              },
+              "next": {
+                "title": "Get Data from Api with useCallback",
+                "permalink": "/docs/tutorial-basics/getApi"
               }
             },
             {
@@ -218,6 +300,32 @@
               }
             },
             {
+              "unversionedId": "tutorial-basics/getApi",
+              "id": "tutorial-basics/getApi",
+              "isDocsHomePage": false,
+              "title": "Get Data from Api with useCallback",
+              "description": "For Firebase",
+              "source": "@site/docs/tutorial-basics/getApi.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/getApi",
+              "permalink": "/docs/tutorial-basics/getApi",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Get Data with Firebase App",
+                "permalink": "/docs/tutorial-basics/firebaseGetData"
+              },
+              "next": {
+                "title": "Mapview",
+                "permalink": "/docs/tutorial-basics/mapview"
+              }
+            },
+            {
               "unversionedId": "tutorial-basics/mapview",
               "id": "tutorial-basics/mapview",
               "isDocsHomePage": false,
@@ -235,8 +343,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Function for Apple Sign In with Firebase",
-                "permalink": "/docs/tutorial-basics/firebase-apple-auth"
+                "title": "Get Data from Api with useCallback",
+                "permalink": "/docs/tutorial-basics/getApi"
               },
               "next": {
                 "title": "Parsing Data from API",
@@ -263,6 +371,58 @@
               "previous": {
                 "title": "Mapview",
                 "permalink": "/docs/tutorial-basics/mapview"
+              },
+              "next": {
+                "title": "Reusable Modal with Zustand",
+                "permalink": "/docs/tutorial-basics/reusableModal"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/reusableModal",
+              "id": "tutorial-basics/reusableModal",
+              "isDocsHomePage": false,
+              "title": "Reusable Modal with Zustand",
+              "description": "Zustand Store",
+              "source": "@site/docs/tutorial-basics/reusableModal.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/reusableModal",
+              "permalink": "/docs/tutorial-basics/reusableModal",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Parsing Data from API",
+                "permalink": "/docs/tutorial-basics/parse-data"
+              },
+              "next": {
+                "title": "Get Data from Firebase REST API",
+                "permalink": "/docs/tutorial-basics/rnFirebaseApi"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/rnFirebaseApi",
+              "id": "tutorial-basics/rnFirebaseApi",
+              "isDocsHomePage": false,
+              "title": "Get Data from Firebase REST API",
+              "description": "",
+              "source": "@site/docs/tutorial-basics/rnFirebaseApi.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/rnFirebaseApi",
+              "permalink": "/docs/tutorial-basics/rnFirebaseApi",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Reusable Modal with Zustand",
+                "permalink": "/docs/tutorial-basics/reusableModal"
               },
               "next": {
                 "title": "React Native",
@@ -313,8 +473,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Parsing Data from API",
-                "permalink": "/docs/tutorial-basics/parse-data"
+                "title": "Get Data from Firebase REST API",
+                "permalink": "/docs/tutorial-basics/rnFirebaseApi"
               },
               "next": {
                 "title": "Dark Mode Theme",
@@ -400,53 +560,23 @@
               }
             },
             {
-              "unversionedId": "tutorial-extras/manage-docs-versions",
-              "id": "tutorial-extras/manage-docs-versions",
+              "unversionedId": "vite/deployVercel",
+              "id": "vite/deployVercel",
               "isDocsHomePage": false,
-              "title": "Manage Docs Versions",
-              "description": "Docusaurus can manage multiple versions of your docs.",
-              "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/tutorial-extras/manage-docs-versions",
+              "title": "Deploying to Vercel / Plesk",
+              "description": "Deploying to Vercel",
+              "source": "@site/docs/vite/deployVercel.md",
+              "sourceDirName": "vite",
+              "slug": "/vite/deployVercel",
+              "permalink": "/docs/vite/deployVercel",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
+              "sidebarPosition": 7,
               "frontMatter": {
-                "sidebar_position": 1
+                "sidebar_position": 7
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Jekyll Docker Compose",
-                "permalink": "/docs/docker/jekyllDocker"
-              },
-              "next": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/translate-your-site",
-              "id": "tutorial-extras/translate-your-site",
-              "isDocsHomePage": false,
-              "title": "Translate your site",
-              "description": "Let's translate docs/intro.md to French.",
-              "source": "@site/docs/tutorial-extras/translate-your-site.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/docs/tutorial-extras/translate-your-site",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
-              },
-              "next": {
                 "title": "Get Data from JSON API",
                 "permalink": "/docs/react/test"
               }
@@ -498,11 +628,27 @@
                   },
                   {
                     "type": "doc",
+                    "id": "tutorial-basics/firebaseGetData"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/getApi"
+                  },
+                  {
+                    "type": "doc",
                     "id": "tutorial-basics/mapview"
                   },
                   {
                     "type": "doc",
                     "id": "tutorial-basics/parse-data"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/reusableModal"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/rnFirebaseApi"
                   },
                   {
                     "type": "doc",
@@ -528,29 +674,33 @@
               },
               {
                 "type": "category",
-                "label": "Tutorial - Extras",
+                "label": "React / Next.js",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial-extras/manage-docs-versions"
+                    "id": "react/react-query"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-extras/translate-your-site"
+                    "id": "react/reusableModal"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "react/test"
                   }
                 ]
               },
               {
                 "type": "category",
-                "label": "react",
+                "label": "Vite",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "react/test"
+                    "id": "vite/deployVercel"
                   }
                 ]
               }

@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Function for Apple Sign In with Firebase",
-    "permalink": "/docs/tutorial-basics/firebase-apple-auth"
+    "title": "Get Data from Api with useCallback",
+    "permalink": "/docs/tutorial-basics/getApi"
   },
   "next": {
     "title": "Parsing Data from API",

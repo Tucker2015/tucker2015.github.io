@@ -1,6 +1,6 @@
 export default {
   "title": "Kevin's Document Site",
-  "tagline": "Dinosaurs are cool",
+  "tagline": "Dinosaurs are not cool",
   "url": "https://tucker2015.github.io",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -101,7 +101,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2022 Kevin Tucker, Built with Docusaurus."
+      "copyright": "Copyright © 2023 Kevin Tucker"
     },
     "prism": {
       "theme": {

@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Parsing Data from API",
-    "permalink": "/docs/tutorial-basics/parse-data"
+    "title": "Get Data from Firebase REST API",
+    "permalink": "/docs/tutorial-basics/rnFirebaseApi"
   },
   "next": {
     "title": "Dark Mode Theme",

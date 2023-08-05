@@ -20,7 +20,7 @@
     "permalink": "/docs/tutorial-basics/themeSwitch"
   },
   "next": {
-    "title": "Manage Docs Versions",
-    "permalink": "/docs/tutorial-extras/manage-docs-versions"
+    "title": "Get Data with React-Query",
+    "permalink": "/docs/react/react-query"
   }
 }

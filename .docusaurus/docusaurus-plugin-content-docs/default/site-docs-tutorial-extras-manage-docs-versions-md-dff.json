@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Jekyll Docker Compose",
-    "permalink": "/docs/docker/jekyllDocker"
+    "title": "Get Data from JSON API",
+    "permalink": "/docs/react/test"
   },
   "next": {
     "title": "Translate your site",

@@ -20,7 +20,7 @@
     "permalink": "/docs/tutorial-basics/boolean"
   },
   "next": {
-    "title": "Mapview",
-    "permalink": "/docs/tutorial-basics/mapview"
+    "title": "Get Data with Firebase App",
+    "permalink": "/docs/tutorial-basics/firebaseGetData"
   }
 }

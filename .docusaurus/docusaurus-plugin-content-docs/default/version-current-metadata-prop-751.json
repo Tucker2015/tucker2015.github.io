@@ -61,6 +61,16 @@
           },
           {
             "type": "link",
+            "label": "Get Data with Firebase App",
+            "href": "/docs/tutorial-basics/firebaseGetData"
+          },
+          {
+            "type": "link",
+            "label": "Get Data from Api with useCallback",
+            "href": "/docs/tutorial-basics/getApi"
+          },
+          {
+            "type": "link",
             "label": "Mapview",
             "href": "/docs/tutorial-basics/mapview"
           },
@@ -68,6 +78,16 @@
             "type": "link",
             "label": "Parsing Data from API",
             "href": "/docs/tutorial-basics/parse-data"
+          },
+          {
+            "type": "link",
+            "label": "Reusable Modal with Zustand",
+            "href": "/docs/tutorial-basics/reusableModal"
+          },
+          {
+            "type": "link",
+            "label": "Get Data from Firebase REST API",
+            "href": "/docs/tutorial-basics/rnFirebaseApi"
           },
           {
             "type": "link",
@@ -96,32 +116,37 @@
       },
       {
         "type": "category",
-        "label": "Tutorial - Extras",
+        "label": "React / Next.js",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions"
+            "label": "Get Data with React-Query",
+            "href": "/docs/react/react-query"
           },
           {
             "type": "link",
-            "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site"
+            "label": "Reusable Modal",
+            "href": "/docs/react/reusableModal"
+          },
+          {
+            "type": "link",
+            "label": "Get Data from JSON API",
+            "href": "/docs/react/test"
           }
         ]
       },
       {
         "type": "category",
-        "label": "react",
+        "label": "Vite",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Get Data from JSON API",
-            "href": "/docs/react/test"
+            "label": "Deploying to Vercel / Plesk",
+            "href": "/docs/vite/deployVercel"
           }
         ]
       }

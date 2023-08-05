@@ -21,6 +21,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "react/react-query",
+              "path": "/docs/react/react-query",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/reusableModal",
+              "path": "/docs/react/reusableModal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "react/test",
               "path": "/docs/react/test",
               "sidebar": "tutorialSidebar"
@@ -46,8 +56,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "tutorial-basics/firebaseGetData",
+              "path": "/docs/tutorial-basics/firebaseGetData",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-basics/get-data-fetch",
               "path": "/docs/tutorial-basics/get-data-fetch",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/getApi",
+              "path": "/docs/tutorial-basics/getApi",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -58,6 +78,16 @@
             {
               "id": "tutorial-basics/parse-data",
               "path": "/docs/tutorial-basics/parse-data",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/reusableModal",
+              "path": "/docs/tutorial-basics/reusableModal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/rnFirebaseApi",
+              "path": "/docs/tutorial-basics/rnFirebaseApi",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -86,13 +116,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
+              "id": "vite/deployVercel",
+              "path": "/docs/vite/deployVercel",
               "sidebar": "tutorialSidebar"
             }
           ]

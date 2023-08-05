@@ -20,7 +20,7 @@
     "permalink": "/docs/tutorial-basics/mapview"
   },
   "next": {
-    "title": "React Native",
-    "permalink": "/docs/tutorial-basics/test"
+    "title": "Reusable Modal with Zustand",
+    "permalink": "/docs/tutorial-basics/reusableModal"
   }
 }

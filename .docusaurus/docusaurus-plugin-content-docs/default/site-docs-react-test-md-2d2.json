@@ -16,7 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Translate your site",
-    "permalink": "/docs/tutorial-extras/translate-your-site"
+    "title": "Reusable Modal",
+    "permalink": "/docs/react/reusableModal"
+  },
+  "next": {
+    "title": "Deploying to Vercel / Plesk",
+    "permalink": "/docs/vite/deployVercel"
   }
 }

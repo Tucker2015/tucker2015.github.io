@@ -70,7 +70,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','d68'),
+    component: ComponentCreator('/docs','346'),
     routes: [
       {
         path: '/docs/docker/jekyllDocker',
@@ -81,6 +81,18 @@ export default [
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro','aed'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/react/react-query',
+        component: ComponentCreator('/docs/react/react-query','3c6'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/react/reusableModal',
+        component: ComponentCreator('/docs/react/reusableModal','2ad'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -115,8 +127,20 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/docs/tutorial-basics/firebaseGetData',
+        component: ComponentCreator('/docs/tutorial-basics/firebaseGetData','e7c'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/docs/tutorial-basics/get-data-fetch',
         component: ComponentCreator('/docs/tutorial-basics/get-data-fetch','a9b'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/tutorial-basics/getApi',
+        component: ComponentCreator('/docs/tutorial-basics/getApi','d45'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -129,6 +153,18 @@ export default [
       {
         path: '/docs/tutorial-basics/parse-data',
         component: ComponentCreator('/docs/tutorial-basics/parse-data','0a3'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/tutorial-basics/reusableModal',
+        component: ComponentCreator('/docs/tutorial-basics/reusableModal','921'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/tutorial-basics/rnFirebaseApi',
+        component: ComponentCreator('/docs/tutorial-basics/rnFirebaseApi','4d9'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -163,14 +199,8 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-extras/manage-docs-versions',
-        component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions','fdd'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-extras/translate-your-site',
-        component: ComponentCreator('/docs/tutorial-extras/translate-your-site','2d7'),
+        path: '/docs/vite/deployVercel',
+        component: ComponentCreator('/docs/vite/deployVercel','04e'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }
