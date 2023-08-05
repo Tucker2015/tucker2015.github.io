@@ -61,8 +61,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "React Native Background Timer",
-                "permalink": "/docs/tutorial-basics/backgroundTimer"
+                "title": "Tailwind",
+                "permalink": "/docs/tailwind/test"
               }
             },
             {
@@ -144,6 +144,32 @@
               }
             },
             {
+              "unversionedId": "tailwind/test",
+              "id": "tailwind/test",
+              "isDocsHomePage": false,
+              "title": "Tailwind",
+              "description": "Sample tailwind.config.js with custom fonts",
+              "source": "@site/docs/tailwind/test.md",
+              "sourceDirName": "tailwind",
+              "slug": "/tailwind/test",
+              "permalink": "/docs/tailwind/test",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Kevin's Documents",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "React Native Background Timer",
+                "permalink": "/docs/tutorial-basics/backgroundTimer"
+              }
+            },
+            {
               "unversionedId": "tutorial-basics/asyncStorage",
               "id": "tutorial-basics/asyncStorage",
               "isDocsHomePage": false,
@@ -187,8 +213,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Kevin's Documents",
-                "permalink": "/docs/intro"
+                "title": "Tailwind",
+                "permalink": "/docs/tailwind/test"
               },
               "next": {
                 "title": "Get Data from JSON Server using Fetch",
@@ -587,6 +613,18 @@
               {
                 "type": "doc",
                 "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Tailwind CSS",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tailwind/test"
+                  }
+                ]
               },
               {
                 "type": "category",

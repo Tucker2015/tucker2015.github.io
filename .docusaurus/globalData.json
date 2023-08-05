@@ -36,6 +36,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "tailwind/test",
+              "path": "/docs/tailwind/test",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-basics/asyncStorage",
               "path": "/docs/tutorial-basics/asyncStorage",
               "sidebar": "tutorialSidebar"

@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Kevin's Documents",
-    "permalink": "/docs/intro"
+    "title": "Tailwind",
+    "permalink": "/docs/tailwind/test"
   },
   "next": {
     "title": "Get Data from JSON Server using Fetch",
